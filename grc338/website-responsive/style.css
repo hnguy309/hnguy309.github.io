@@ -113,22 +113,7 @@ p.price {
 	font-weight: normal;
 	}
 
-@media screen and (min-width: 60em) {
-	nav ul li{
-		display: inline;
-		font-size: 1.2em;
-		margin: auto 0.2em
-	}
-	nav{
-		margin-right: 1.3em;
-		margin-top: 2em;
-	}
-	main.menu ul{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 1em 3em;
-	}
-}
+
 
 nav ul  {
 	text-align: right;
@@ -189,4 +174,19 @@ footer p {
 	margin: 0;
 }
 
-
+@media screen and (min-width: 60em) {
+	nav ul li{
+		display: inline;
+		font-size: 1.2em;
+		margin: auto 0.2em
+	}
+	nav{
+		margin-right: 1.3em;
+		margin-top: 2em;
+	}
+	main.menu ul{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1em 3em;
+	}
+}
