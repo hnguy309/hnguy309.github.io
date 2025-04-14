@@ -66,9 +66,9 @@ section ul li select {
 }
 
 section {
-    background: #eee;
-    padding: 1em;
-    margin-bottom: 1em;
+    	background: #eee;
+    	padding: 1em;
+    	margin-bottom: 1em;
 }
 
 section p {
@@ -89,6 +89,6 @@ textarea {
 
 @media only screen and (min-width: 40em) {
 	div.container {
-    margin: auto;
+    	margin: auto;
 	}
 }
